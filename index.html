@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Iglesia de Cristo | Arca de Salvación</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&display=swap" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h2><a href="#"><img alt="Iglesia de Cristo Logo" src="images2/logo.jpg" width="100" height="100"></a></h2>
+        <ul class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+    <section class="banner-area">
+        <div class="banner-img"></div>
+        <h3>A Refuge of Faith and Hope</h3>
+        <h1>God is <span>Almighty!</span></h1>
+        <a class="banner-btn" href="#about">More Info</a>
+    </section>
+    
+    <section class="about-area" id="about">
+        <h3 class="section-title">About <span>Us</span></h3>
+        <img id="pastor-image" class="pastor-image" src="images2/pastor_headshot.JPG" alt="Main Pastor Image" width="300" height="300">
+        <p>Welcome to Iglesia de Cristo Arca De Salvacion, a vibrant and diverse church community committed to serving and worshiping together in the name of Christ. Our church is not just a place of worship; it's a family where you belong.</p>
+        <h4>Our Mission</h4>
+        <p>At Arca De Salvacion, our mission is to bring people closer to God and to each other. We are dedicated to sharing the love and teachings of Jesus Christ with our community, guiding individuals towards a deeper relationship with God, and fostering a sense of unity and belonging among our members.</p>
+
+        <h4>Our Values</h4>
+        <ul>
+            <li><i class="fa fa-arrow-right"></i> Faith: We believe in the power of faith and the transformation it brings to our lives.</li>
+            <li><i class="fa fa-arrow-right"></i> Community: We are a tight-knit community that supports and cares for one another.</li>
+            <li><i class="fa fa-arrow-right"></i> Service: We are called to serve, both within our church and in the broader community.</li>
+            <li><i class="fa fa-arrow-right"></i> Love: Love is at the core of everything we do, following the example of Jesus.</li>
+        </ul>
+        <br>
+        <h4>Ministries</h4>
+        <p>Arca De Salvacion offers various ministries catering to different age groups and needs. From children's programs to youth groups, Bible studies to community outreach, there are opportunities for everyone to get involved and grow spiritually.</p>
+        
+        <h4>Get Involved</h4>
+        <p>We invite you to become a part of our loving community. Whether you're looking for a church home or simply seeking answers to life's questions, we're here for you. Join us for a service, connect with our members, and discover the joy of a life devoted to Christ.</p>
+
+    </section>
+    
+    <section class="msg-area">
+        <div class="msg-content">
+            <h2>Quote of the week</h2>
+            <p>"For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life." - John 3:16</p>
+        </div>
+    </section>
+    <section class="services-area" id="services">
+        <h3 class="section-title">Our <span>Services</span></h3>
+        <ul class="services-content">
+            <li>
+                <img alt="Friday Service" src="images2/David.JPG">
+                <h4>Friday Night Worship</h4>
+                <p>Time: 7:30pm <br> Start your weekend with inspiration and spiritual renewal. Our Friday night worship is a time of reflection, prayer, and community as we come together to honor and glorify God.</p>
+            </li>
+            <li>
+                <img alt="Sunday Service" src="images2/Diana2.JPG">
+                <h4>Sunday Morning Worship</h4>
+                <p>Time: 11:00am <br> Join us on Sunday mornings for a powerful worship experience. This is the perfect time to gather with family and friends to celebrate God's love and grace. Our Sunday services are designed to uplift your spirit and strengthen your faith.</p>
+            </li>
+        </ul>
+    </section>
+    <section class="contact-area" id="contact">
+        <h3 class="section-title">Contact <span>Us</span></h3>
+        <ul class="contact-content">
+            <li>
+                <i class="fa fa-map-marker"></i>
+                <p>14237 Ambaum BLVD SW, Burien WA, 98166<br> United States</p>
+            </li>
+            <li>
+                <i class="fa fa-phone"></i>
+                <p> Pastor Gerardo Arreola <br> +(206) 391-3136</p>
+            </li>
+            <li>
+                <i class="fa fa-envelope"></i>
+                <p>Email: arcadesalvacioniglesiadecristo@gmail.com</p>
+            </li>
+        </ul>
+    </section>   
+    <button id="back-to-top-btn">&#8593;</button>
+    <script>
+        // Get the button element
+        var backToTopBtn = document.getElementById("back-to-top-btn");
+    
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                backToTopBtn.style.display = "block";
+            } else {
+                backToTopBtn.style.display = "none";
+            }
+        };
+    
+        // When the user clicks on the button, scroll to the top of the document
+        backToTopBtn.addEventListener("click", function() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+        });
+    </script>
+    
+    <footer>
+        <p>All Rights Reserved by Iglesia de Cristo | Arca de Salvación</p>
+    </footer>
+    </body>
+    </html>
+    
